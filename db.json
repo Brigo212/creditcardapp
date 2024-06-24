@@ -1,0 +1,74 @@
+{
+    "creditcards": [
+        {
+            "id":1,
+            "cardName": "Bank of America - Platimun Card",
+            "bankName": "Bank of America",
+            "description": "Bank of America offers customers with variety of options",
+            "maxCredit": 8000,
+            "active": true,
+            "annualFee": 0,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommendedCreditScore": "600-800",
+            "numberOfApplications": 40,
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id":2,
+            "cardName": "ABSA - Black Card",
+            "bankName": "ABSA",
+            "description": "ABSA SA's leading bank",
+            "maxCredit": 12000,
+            "active": true,
+            "annualFee": 1.5,
+            "interestRate": 13.5,
+            "introOffer": 2000,
+            "recommendedCreditScore": "650-800",
+            "numberOfApplications": 70,
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id":3,
+            "cardName": "Capitec0 - Gold Card",
+            "bankName": "Capitect",
+            "description": "Capitec the cheapest bank in South Africa",
+            "maxCredit": 10000,
+            "active": true,
+            "annualFee": 1,
+            "interestRate": 13.5,
+            "introOffer": 600,
+            "recommendedCreditScore": "600-800",
+            "numberOfApplications": 45,
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id":4,
+            "cardName": "Standard Bank - Standard Card",
+            "bankName": "Standard Bank",
+            "description": "The bank with the best banking standards in South Africa",
+            "maxCredit": 9000,
+            "active": true,
+            "annualFee": 1.5,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommendedCreditScore": "600-800",
+            "numberOfApplications": 60,
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id":5,
+            "cardName": "Nedbank - Gold Card",
+            "bankName": "Netbank",
+            "description": "Bank for the mature clients",
+            "maxCredit": 50000,
+            "active": true,
+            "annualFee": 1.5,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommendedCreditScore": "650-800",
+            "numberOfApplications": 25,
+            "termsAndConditions": "The following conditions are applicable for this card"
+        }
+    ]
+}
