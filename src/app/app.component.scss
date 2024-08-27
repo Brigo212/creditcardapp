@@ -2,7 +2,7 @@
     flex: 1 1 auto;
   }
 .header-toolbar {
-    background: #694e06;
+    background: #395a7f;
     color: white;
     .app-title {
         padding-left: 20px;
@@ -10,11 +10,14 @@
 }
 .content-container {
     height: 100%;
-    border:1px solid #47402c;
+    border:5px solid #395a7f;
     min-height: 100vh;
 }
 .sidebar {
-    background-color: #e3cd8f;
+    background-color: #6e9fc1;
     height: 100%;
     width: 250px;
+}
+.mat-card {
+    margin:20px;
 }

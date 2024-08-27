@@ -2,7 +2,7 @@
   <button mat-icon-button (click)="toggleSidebar()" class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon>menu</mat-icon>
   </button>
-  <span class="app-title">Credit Card Portal</span>
+  <span class="app-title">Vehicle Tracking</span>
   <span class="header-spacer"></span>
   <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     <mat-icon>favorite</mat-icon>
@@ -14,10 +14,9 @@
 
 <mat-drawer-container class="content-container">
   <mat-drawer mode="side" [opened]="sidebarOpen" class="sidebar">
-    Sidebar
+    <app-sidebar>Sidebar is working as expected</app-sidebar>
   </mat-drawer>
   <mat-drawer-content class="main-content">
-    <h1>Credit Card Admin Portal</h1>
     <router-outlet></router-outlet>
   </mat-drawer-content>
 </mat-drawer-container>
