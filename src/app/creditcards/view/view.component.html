@@ -1,0 +1,30 @@
+<mat-card class="mat-card">
+    
+<h1>Credit Card Details</h1>
+
+<ng-container *ngIf="creditCardDetails">
+    <mat-card class="mat-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>{{creditCardDetails.cardName}}</mat-card-title>
+            <mat-card-subtitle>{{creditCardDetails.bankName}}</mat-card-subtitle>
+            <img mat-card-sm-image class="image" src="assets\Capitec.png" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <div>{{creditCardDetails.id}}</div>
+            <div>{{creditCardDetails.cardName}}</div>
+            <div>{{creditCardDetails.bankName}}</div>
+            <div>{{creditCardDetails.description}}</div>
+            <div>{{creditCardDetails.maxCredit}}</div>
+            <div>{{creditCardDetails.active}}</div>
+            <div>{{creditCardDetails.annualFee}}</div>
+            <div>{{creditCardDetails.interestRate}}</div>
+            <div>{{creditCardDetails.introOffer}}</div>
+            <div>{{creditCardDetails.recommendedCreditScore}}</div>
+            <div>{{creditCardDetails.numberOfApplications}}</div>
+            <div>{{creditCardDetails.termsAndConditions}}</div>
+        </mat-card-content>
+      </mat-card>
+   
+</ng-container>
